@@ -1,7 +1,8 @@
 import { FaRegTrashAlt } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
-import { addTask, deleteTask } from "../redux/features/task/taskSlice";
+import { addTask, completeTask, deleteTask } from "../redux/features/task/taskSlice";
 import { useEffect, useState } from "react";
+import { Button } from "bootstrap";
 
 const TaskList = () => {
   // const [ tasks, setTasks ] = useState([])
@@ -21,16 +22,14 @@ const TaskList = () => {
   return (
     <div>
       {/* showing all tasks */}
-      <ul className="list-group w-full md:w-1/2 mx-auto">
-        {tasks.map((task) => (
-          //   <li className="" key={task.id}>
-          //     {task.title} <FaRegTrashAlt className="" onClick={() => dispatch(deleteTask())}/>
-          //   </li>
+      <ul className="list-group w-full md:w-1/2 mx-auto p-4">
+        {tasks.map((task, index) => (
           <li
             key={task.id}
-            className="list-group-item flex justify-between border-bottom"
+            className="text-lg list-group-item flex justify-between items-center border-bottom mb-4"
           >
-            {task.title}{" "}
+            {index + 1}.{task.title} 
+            <button onClick={() => dispatch(completeTask())} className="ml-auto mr-2 bg-green-600 text-white py-1 px-2 rounded-sm">Mark as Completed</button>
             <FaRegTrashAlt
               className=""
               onClick={() => dispatch(deleteTask())}

@@ -1,4 +1,6 @@
 # React + Vite
+This is a simple to-do react application. I have used vite to install the react project and redux toolkit for statemanagement 
+ centrally.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

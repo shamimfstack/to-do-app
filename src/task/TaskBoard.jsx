@@ -4,11 +4,9 @@ import TaskList from './TaskList';
 
 const TaskBoard = () => {
 
-    // const handleAddTask = () => {
-    //     console.log("Adding task");
-    // }
 
     return (
+        // add task form and task list here
         <div className='bg-gray-600 py-24 text-white text-3xl text-center'>
             <AddTask />
             <TaskList />
