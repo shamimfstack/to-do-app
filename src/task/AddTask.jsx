@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addTask } from '../redux/features/task/taskSlice';
 
 // let nextId = 0;

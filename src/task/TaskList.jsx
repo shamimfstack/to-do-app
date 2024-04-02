@@ -1,8 +1,8 @@
 import { FaRegTrashAlt } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
-import { addTask, completeTask, deleteTask } from "../redux/features/task/taskSlice";
-import { useEffect, useState } from "react";
-import { Button } from "bootstrap";
+import { completeTask, deleteTask } from "../redux/features/task/taskSlice";
+
+
 
 const TaskList = () => {
   // const [ tasks, setTasks ] = useState([])
