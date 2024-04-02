@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <div>
-        <Hero />
+        {/* <Hero /> */}
         <TaskBoard />
       </div>
     </>

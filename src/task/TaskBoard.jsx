@@ -1,5 +1,6 @@
 
 import AddTask from './AddTask';
+import TaskList from './TaskList';
 
 const TaskBoard = () => {
 
@@ -10,6 +11,7 @@ const TaskBoard = () => {
     return (
         <div className='bg-gray-600 py-24 text-white text-3xl text-center'>
             <AddTask />
+            <TaskList />
         </div>
     );
 };
