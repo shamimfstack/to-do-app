@@ -1,7 +1,7 @@
 
 import './App.css'
 import Header from './components/Header'
-// import Hero from './components/Hero'
+import Hero from './components/Hero'
 import TaskBoard from './task/TaskBoard'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div>
         {/* hero section */}
-        {/* <Hero /> */}
+        <Hero />
 
         {/* all task related functionality here */}
         <TaskBoard />

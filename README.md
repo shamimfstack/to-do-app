@@ -1,10 +1,14 @@
 # React + Vite
-This is a simple to-do react application. I have used vite to install the react project and redux toolkit for statemanagement 
- centrally.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple to-do react application.
+Instructions:
+•	Used Vite to build the project.
+•	Used Redux Toolkit to manage state centrally.
+•	Add task, Delete task functionality implemented.
+•	Try to implement task completed functionality, but not completed.
+•	Used react-bootstrap and tailwindCSS for styling.
+•	Project Github link mentioned bellow.
 
-Currently, two official plugins are available:
+Github_link: https://github.com/shamimfstack/to-do-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+

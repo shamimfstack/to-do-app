@@ -9,7 +9,7 @@ const Hero = () => {
                         <img className="max-md:w-full" src={heroImg} width="326" height="290" alt="frame" />
                     </div>
                     <div className="p-5">
-                        <h1 className="md-1.5 text-[56px] font-bold leading-none text-[#F5BF42] lg:text-[73px]">Tasker</h1>
+                        <h1 className="md-1.5 text-[56px] font-bold leading-none text-[#F5BF42] text-2xl lg:text-[73px]">To Do Application</h1>
                         <p className="mt-6 leading-6 text-sm text-white">To track your daily task easily, just use out task management application</p>
                     </div>
                 </div>
